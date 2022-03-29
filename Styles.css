@@ -1,0 +1,89 @@
+/*
+###Selectores####
+*/
+
+/*
+    Selector universal
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+h1{
+    background-color: bisque;
+    padding: 10px;
+
+}
+
+ul {
+    text-decoration: none;
+    color: aqua;
+}
+
+li a {
+    text-decoration: none;
+    color: green;
+}
+
+#Contenido{
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+/*
+Selectores de clase
+*/
+
+.parrafo{
+    /*font-style:italic;.*/
+    /*text-decoration: dashed;*/
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.parrafo1{
+    font-weight: 400;
+    background-color: aqua;
+    text-decoration:line-through;
+}
+
+#formularioUser form{
+
+        border: 5px solid blue;
+        width: 200px;
+        height: 200px;
+        margin: 15px;
+        padding: 15px;
+
+}
+#formularioUser form *{
+    display: block;
+}
+
+#formularioUser form input{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+input[type= "submit"]{
+
+    cursor: pointer;
+}
+
+
+/*Selectores Hijo*/
+
+#menu >li> a{
+    color: red;
+}
+
+#Saludo h1{
+
+    background: aqua;
+}
+
